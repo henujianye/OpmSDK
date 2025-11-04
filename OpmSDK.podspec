@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "neolix" => "wangjianye@neolix.ai" }
   s.platform     = :ios, "13.0"
-  s.source = { :git => 'https://github.com/henujianye/OpmSDK.git', :branch => 'main' }
+  s.source = { :git => 'https://github.com/henujianye/OpmSDK.git', :tag => '1.0.1' }
   # 指定 xcframework
   s.vendored_frameworks = "OpmSDK.xcframework"
   s.resources = 'OpmSDK.bundle'
